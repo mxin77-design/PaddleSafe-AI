@@ -1,2 +1,14 @@
-# PaddleSafe-AI
-PaddleSafe AI is a React-based web app for paddleboard safety and compliance. It offers risk assessment, pre-launch checklists, safety Q&amp;A, incident review, and an admin dashboard—helping paddlers evaluate weather, gear, and environmental risks before heading out.
+# 环境安装指南
+## NVM 安装
+``` 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+## Node.js 18 安装
+```
+nvm install 18
+nvm use 18
+```
+## 启动开发服务器
+```
+npm run dev
+```
